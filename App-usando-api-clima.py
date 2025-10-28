@@ -29,7 +29,7 @@ while True:
         temp_min = dados_clima['main']['temp_min']
         temp_max = dados_clima['main']['temp_max']
 
-        decricacao = dados_clima['weather'][0]['description']
+        decricao = dados_clima['weather'][0]['description']
 
         print ("-------------------------------------------")
         print (f"Clima em {cidade}: {decricacao}")
